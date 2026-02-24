@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node client.js",
+    "web": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "axios": "^1.13.5",
     "long": "^5.3.2",
     "protobufjs": "^8.0.0",
